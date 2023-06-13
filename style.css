@@ -1,0 +1,106 @@
+body{
+    font-family: 'Arvo', serif;
+    margin: 0;
+}
+section{
+    height: 600px;
+}
+.banner-1{
+    background-image: url(image/header-bg.png);
+    background-position: center;
+}
+h1{
+    font-size: 40px;
+}
+.section-1{
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+    padding-left:2%;
+    margin-top: 10%;
+}
+.name-highlight{
+    color: deeppink;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(45deg, black, red);
+    padding: 5px;
+    border-radius: 10px;
+}
+.button::after{
+    content:"👈" ;
+}
+.img-1{
+    height: 500px;
+    width: 500px;
+    float: left;
+    padding-top: 35px;
+}
+.section-2{
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.img-2{
+    height: 550px;
+    width: 450px;
+    float: left;
+    padding-top: 1%;
+    margin-left: 10%;
+}   
+.banner-2{
+    background-image: url(image/biography-bg.png);
+    background-position: center;
+}
+.banner-3{
+    background-image: url(image/latest-work-bg.png);
+    background-position: center;
+    text-align: center;
+    font-size: 28px;
+}
+.img-3{
+    width:100%;
+}
+.latest-work{
+    width: 25%;
+    margin: 4%;
+    display: inline-block;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+}
+.banner-4{
+    background-image: url(image/footer-bg.png);
+    background-position: center;
+    text-align: center;
+}
+.comment{
+    width: 500px;
+    margin-left: 36%;
+}
+.gap-1{
+    margin: 3%;
+}
+.footer-color{
+    color: grey;
+    text-align: center;
+}
+.mail-box{
+    margin: 2%;
+    display: inline-block;
+    background-image: linear-gradient(45deg, rgb(212, 3, 66), rgb(240, 102, 155) );
+    color: white;
+    width: 40%;
+    height: 27%;
+    border-radius: 10px;
+    padding-top: 2%;
+    font-size: 18px;
+    box-shadow: 10px 10px 40px gray;
+}
+.mail{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
